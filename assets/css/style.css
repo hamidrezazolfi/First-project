@@ -5,5 +5,11 @@
     .top_navbar{
         box-shadow: 0 0 50px  grey  !important;
     }
+
+    #top_actions_section{
+        display: flex !important;
+        align-items: center !important;
+    }
  }
+ 
 
