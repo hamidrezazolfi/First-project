@@ -12,4 +12,15 @@
     }
  }
  
+ 
+ .users_list_item.active .users_list_arrow_icon{
+    transform: rotate(180deg);
+ }
+ 
+ .users_list_item.active , .users_list_item.active .collapsible-header{
+    background-color: rgba(198, 195, 195, 0.212);
+ }
 
+ table.highlight > tbody > tr:hover {
+    background-color:  rgba(0, 67, 250, 0.19);
+  }
